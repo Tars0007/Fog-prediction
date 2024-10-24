@@ -195,13 +195,13 @@ if len(shap_values_for_class_1.shape) == 1:
 plt.figure()
 shap.summary_plot(shap_values_for_class_1, X_test, plot_type="bar", show=False)
 plt.yticks(fontsize=9)
-plt.savefig('result2/1320shap_feature_importance_bar7.png')
+plt.savefig('result/1320shap_feature_importance_bar7.png')
 plt.close()
 
 # Draw SHAP summary plot
 plt.figure()
 shap.summary_plot(shap_values_for_class_1, X_test, show=False)
-plt.savefig('result2/1320shap_summary_plot7.png')
+plt.savefig('result/1320shap_summary_plot7.png')
 plt.close()
 
 
